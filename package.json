@@ -4,9 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "postinstall": "npx prisma generate"
+    "start":      "node index.js",
+    "dev":        "nodemon index.js",
+
+    // ⬇ add chmod before generate
+    "postinstall": "chmod +x ./node_modules/.bin/prisma && npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
