@@ -2,11 +2,11 @@
   "name": "conq-backend",
   "version": "0.1.0",
   "type": "module",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js",
-    "prisma:deploy": "npx prisma migrate deploy"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "postinstall": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
