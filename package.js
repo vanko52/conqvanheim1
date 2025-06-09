@@ -5,12 +5,11 @@
     "main": "index.js",
 
     "scripts": {
-    "start": "node index.js",
-
-        // 👉 add these two lines
-        "generate": "prisma generate",
+    "generate": "prisma generate",
+        "start": "node index.js",
         "postinstall": "npm run generate && chmod +x ./node_modules/.bin/prisma"
-},
+}
+
 
     "dependencies": {
     "@prisma/client": "^5.22.0",
