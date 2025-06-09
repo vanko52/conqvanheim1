@@ -1,9 +1,8 @@
 generator client {
   provider      = "prisma-client-js"
   binaryTargets = ["native", "windows", "debian-openssl-3.0.x"]
-  // native  → whatever OS runs `prisma generate` (Render = debian-openssl-3.0.x)
-  // windows → lets you keep developing locally
 }
+
 
 
 datasource db {
