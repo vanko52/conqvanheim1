@@ -26,13 +26,13 @@ export default function Dashboard() {
     }
   }
   useEffect(()=>{ load() },[])
+  if (!data) return <p>Loading…</p>;
   if (!data) return null
   return (
     <div>
       <div className="box">
         <h2>Dashboard</h2>
         <p>Welcome, {data.username} (Power: {data.power})</p>
-        <button onClick={pull}>Pull the Horn</button>
         <button onClick={pull}>Pull the Horn</button>
         <p><Link to="/inventory">Open Inventory</Link></p>
 
