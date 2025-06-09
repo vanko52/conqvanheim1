@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "ff87e25a-10c2-4dff-a359-b4f6d7705ab8",
+    "name": "Common Rune of Length 1",
+    "stat": "length",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "a67834ff-4609-467b-82b5-0d21f795c6f7",
+    "name": "Common Rune of Length 2",
+    "stat": "length",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "449d837e-582b-4cf9-9a56-ee98ec399f0c",
+    "name": "Common Rune of Length 3",
+    "stat": "length",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "29ef9218-6757-44bb-abd6-672248ca7f6b",
+    "name": "Common Rune of Length 4",
+    "stat": "length",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "5024d86b-9aa6-44cf-8832-c2e5a2283337",
+    "name": "Common Rune of Length 5",
+    "stat": "length",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "9019aa19-ca07-43bb-912f-7382c26d43e7",
+    "name": "Common Rune of Length 6",
+    "stat": "length",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "3fcace64-dcd3-4963-b0fc-417e788362e3",
+    "name": "Common Rune of Length 7",
+    "stat": "length",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "ca3a42f4-9f71-45b3-993b-c2004abb6fca",
+    "name": "Common Rune of Length 8",
+    "stat": "length",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "5d6015fe-a4c6-405f-94d1-7a975982d23c",
+    "name": "Rare Rune of Length 1",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "bee70ab6-4e49-4499-a72c-d3ce43a0349f",
+    "name": "Rare Rune of Length 2",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "dd55f1ee-7a31-4f5d-9b00-49aab1ee09d9",
+    "name": "Rare Rune of Length 3",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "a7baa8a3-8815-44a1-b279-31e87884ce07",
+    "name": "Rare Rune of Length 4",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "cdb43060-ed37-4836-becf-e09148dde66f",
+    "name": "Rare Rune of Length 5",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "a33438fc-1995-4a20-b548-a5ffe5460972",
+    "name": "Rare Rune of Length 6",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "53cfcd5e-1798-4b1e-bba9-11623e56a75d",
+    "name": "Rare Rune of Length 7",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "a01e6137-7039-41c0-96e7-776b96fc9de6",
+    "name": "Rare Rune of Length 8",
+    "stat": "length",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "4ebc8296-e11a-4523-a1db-a471ed80da1c",
+    "name": "Epic Rune of Length 1",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "3dd2597f-69a7-43ed-a5d3-7db9fa50eca9",
+    "name": "Epic Rune of Length 2",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "53911e2a-02f4-4bc3-b3cd-891302d14822",
+    "name": "Epic Rune of Length 3",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "dcefdc9e-e32a-4d34-a9db-541d40504cb4",
+    "name": "Epic Rune of Length 4",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "fd6df089-6b23-4385-ac8e-af8b362f5571",
+    "name": "Epic Rune of Length 5",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "9c553b27-ad1a-46e3-975c-db8c094ed211",
+    "name": "Epic Rune of Length 6",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "d570b01a-8c7a-4097-bec6-c44c823a9d6f",
+    "name": "Epic Rune of Length 7",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "f423547b-dcbf-4975-b0f8-837cce07f068",
+    "name": "Epic Rune of Length 8",
+    "stat": "length",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "b00af3e6-fbe7-4566-80bc-a4e5f3941581",
+    "name": "Legendary Rune of Length 1",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "7cdd6024-83e5-4dda-9a93-6dfe3c62830b",
+    "name": "Legendary Rune of Length 2",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "716a4b02-e9ac-4b02-a789-f21e50591997",
+    "name": "Legendary Rune of Length 3",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "6da88aca-ddc0-4f21-a119-23377d64e6d7",
+    "name": "Legendary Rune of Length 4",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "458940cd-f4e7-4818-bb89-0e2494d16e26",
+    "name": "Legendary Rune of Length 5",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "762e6ae3-207e-478c-bd0c-cce3afdeea08",
+    "name": "Legendary Rune of Length 6",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "8e7f16e8-2d76-43eb-88d7-ca35709586dc",
+    "name": "Legendary Rune of Length 7",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "2f73e0bc-e0d8-4d32-ac0d-cfc29f9a56dd",
+    "name": "Legendary Rune of Length 8",
+    "stat": "length",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "af3bd154-7233-4b23-a1f6-8b792e50a715",
+    "name": "Ancient Rune of Length 1",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "d49e848b-4935-4510-a414-3f3d858cbda5",
+    "name": "Ancient Rune of Length 2",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "92cc8592-4739-4433-9e69-6d10826bcc36",
+    "name": "Ancient Rune of Length 3",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "09a3a51e-c782-4654-b878-a72648777192",
+    "name": "Ancient Rune of Length 4",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "c4bd1e71-7827-4c1e-985f-cd3bc9c3ab02",
+    "name": "Ancient Rune of Length 5",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "0c9868be-5cbe-4061-a346-b054637313cc",
+    "name": "Ancient Rune of Length 6",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "24875e59-5021-4629-b086-e26a85d222cf",
+    "name": "Ancient Rune of Length 7",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "792ecbbc-60c1-4a06-8e38-182201c12c4f",
+    "name": "Ancient Rune of Length 8",
+    "stat": "length",
+    "rarity": "ancient",
+    "value": 125
+  },
+  {
+    "id": "e953e093-4860-4327-b88d-081de7229c91",
+    "name": "Common Rune of Thickness 1",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "28025f46-1f9d-4ecd-961a-e1c5f3630a2b",
+    "name": "Common Rune of Thickness 2",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "a4ac1f35-c004-49e8-ad10-46c0d6bc419b",
+    "name": "Common Rune of Thickness 3",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "9d9fce4d-aaed-4e63-8671-6d6eba6dd89b",
+    "name": "Common Rune of Thickness 4",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "2cda60ac-2d20-42a7-961d-8f88c00de223",
+    "name": "Common Rune of Thickness 5",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "19e3c81f-0dd1-4d70-8dc5-a385cdc7ff5e",
+    "name": "Common Rune of Thickness 6",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "f9e4c32c-297d-40d6-8929-c88f795d4333",
+    "name": "Common Rune of Thickness 7",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "133aeec5-4aa2-4539-a110-4d11c82143f0",
+    "name": "Common Rune of Thickness 8",
+    "stat": "thickness",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "2cda4ca6-ce93-4828-8ac3-73583fa364f6",
+    "name": "Rare Rune of Thickness 1",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "0ac174a6-089e-4a27-82f8-26d961966153",
+    "name": "Rare Rune of Thickness 2",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "c0fba264-6ede-4758-ac2f-a22e46348d38",
+    "name": "Rare Rune of Thickness 3",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "a6949863-10f6-4713-b35c-6572df8c0c4c",
+    "name": "Rare Rune of Thickness 4",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "ef8951a9-aae8-428e-bbfa-4e0d4afe8896",
+    "name": "Rare Rune of Thickness 5",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "6850c86a-0d24-4ed2-8c89-7a6340decf0b",
+    "name": "Rare Rune of Thickness 6",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "d6cd34bd-e054-4c82-a253-fce5cc0ba34a",
+    "name": "Rare Rune of Thickness 7",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "6770aa6f-1c5a-4d21-a9ef-66d3957fc52b",
+    "name": "Rare Rune of Thickness 8",
+    "stat": "thickness",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "50745b3c-7e39-4fd3-adb6-d8d918739ffa",
+    "name": "Epic Rune of Thickness 1",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "9b9d1cff-db17-43c6-b1dd-6614629fa3cb",
+    "name": "Epic Rune of Thickness 2",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "a5420f06-0ff4-4ffd-82db-46a68dfe718a",
+    "name": "Epic Rune of Thickness 3",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "9dd778b6-b443-4f9b-966a-d049f25e73d4",
+    "name": "Epic Rune of Thickness 4",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "53dd37da-1853-4e87-a30b-a5eaa0747dae",
+    "name": "Epic Rune of Thickness 5",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "4f68ef2e-2119-4346-a79f-a7292d693934",
+    "name": "Epic Rune of Thickness 6",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "514d51cf-04dc-4d4f-b9e5-b719126d8664",
+    "name": "Epic Rune of Thickness 7",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "430b7052-0e7c-4369-a05d-91366e244e66",
+    "name": "Epic Rune of Thickness 8",
+    "stat": "thickness",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "2781b1a6-46c4-4935-9d5d-561fff16d0aa",
+    "name": "Legendary Rune of Thickness 1",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "7012182e-cb24-43a8-94d2-5a74b29b4ecb",
+    "name": "Legendary Rune of Thickness 2",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "88d4429d-c092-4f6d-85d9-8451167ada69",
+    "name": "Legendary Rune of Thickness 3",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "441fb7da-6952-4d12-9781-ad3ace59728c",
+    "name": "Legendary Rune of Thickness 4",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "6f0f63ce-2636-4f1b-af8c-82c7661e2972",
+    "name": "Legendary Rune of Thickness 5",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "a4e82b82-959e-4b35-9465-15304934cc81",
+    "name": "Legendary Rune of Thickness 6",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "ea888404-54e3-4ecd-965f-9a85fcf76f39",
+    "name": "Legendary Rune of Thickness 7",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "628d364a-ecc3-48c3-b482-51d57d89487e",
+    "name": "Legendary Rune of Thickness 8",
+    "stat": "thickness",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "ea13c104-5231-4bbc-956b-44662af0483b",
+    "name": "Ancient Rune of Thickness 1",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "38f915b9-a366-42d0-8e2f-5341cc2b70a7",
+    "name": "Ancient Rune of Thickness 2",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "b6bb48fb-8442-4354-a3c3-dfa743d6fb3a",
+    "name": "Ancient Rune of Thickness 3",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "e3a73d25-10ea-4acc-afaf-93413451aed6",
+    "name": "Ancient Rune of Thickness 4",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "80948392-6cce-4034-b94a-33359c0e0fe4",
+    "name": "Ancient Rune of Thickness 5",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "0e4aa9d5-11af-41dd-994a-a16a80ac1402",
+    "name": "Ancient Rune of Thickness 6",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "2045c12b-f337-41ee-950f-f2e919518af8",
+    "name": "Ancient Rune of Thickness 7",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "92aa60c3-46bb-43ec-aa85-2aadd8ecd8a5",
+    "name": "Ancient Rune of Thickness 8",
+    "stat": "thickness",
+    "rarity": "ancient",
+    "value": 125
+  },
+  {
+    "id": "1a1a4f26-fddc-45bb-a931-55652feee031",
+    "name": "Common Rune of Power 1",
+    "stat": "power",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "c620bf29-fabb-4566-aa3e-e76b208e62cc",
+    "name": "Common Rune of Power 2",
+    "stat": "power",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "b3d86518-7eef-44c6-95cf-f878c74ea1ec",
+    "name": "Common Rune of Power 3",
+    "stat": "power",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "74c1d570-1974-4d14-ba23-7bb3245faf99",
+    "name": "Common Rune of Power 4",
+    "stat": "power",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "91c6b440-3c2b-4730-8cf0-b51070eb3775",
+    "name": "Common Rune of Power 5",
+    "stat": "power",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "83bbed02-b4f7-435e-9de9-2d88407c0a9b",
+    "name": "Common Rune of Power 6",
+    "stat": "power",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "c31683f3-c957-4a19-9200-b6ecca77ebf2",
+    "name": "Common Rune of Power 7",
+    "stat": "power",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "6ac27747-d63f-4f61-bc31-0f9a4b0e1f82",
+    "name": "Common Rune of Power 8",
+    "stat": "power",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "cc997207-c834-431b-82c6-ed88a8646128",
+    "name": "Rare Rune of Power 1",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "6a329846-8756-4a32-9bef-4eb002cdd9e1",
+    "name": "Rare Rune of Power 2",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "39098858-ba20-4d71-9f10-0e0b2b03490b",
+    "name": "Rare Rune of Power 3",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "4c2cd16f-a4b3-4872-ab68-5fe58cd1c104",
+    "name": "Rare Rune of Power 4",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "db2ec0a2-ccf3-4c88-bac7-10a649112e69",
+    "name": "Rare Rune of Power 5",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "9e853cff-35c5-45d5-9e73-30326f54ef98",
+    "name": "Rare Rune of Power 6",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "48ef8897-301c-4ad8-878a-a3ca45af2dfc",
+    "name": "Rare Rune of Power 7",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "f249e69b-dd09-48eb-901c-8c898593ad34",
+    "name": "Rare Rune of Power 8",
+    "stat": "power",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "3eca668c-dff9-42b1-b89f-10d663d80604",
+    "name": "Epic Rune of Power 1",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "3da5aabf-406e-4f57-b7bc-a261f2d91ca9",
+    "name": "Epic Rune of Power 2",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "aa3add34-e2d4-4150-9a8b-5778c118f020",
+    "name": "Epic Rune of Power 3",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "b6d9fdc4-275f-47d3-8e95-571a7f412a91",
+    "name": "Epic Rune of Power 4",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "0855592d-c422-4434-b8bd-7d317dd5c078",
+    "name": "Epic Rune of Power 5",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "91b1a759-6199-48d3-b714-0d4dbcbbc35f",
+    "name": "Epic Rune of Power 6",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "8101a66c-63ce-466e-a9ca-bfd90a00c173",
+    "name": "Epic Rune of Power 7",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "29449f8a-ada4-4c2d-bc26-f00991dd79c0",
+    "name": "Epic Rune of Power 8",
+    "stat": "power",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "48c5f0d5-8782-40af-8b2a-a7cfb2399ed5",
+    "name": "Legendary Rune of Power 1",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "454252bf-1b83-4700-8951-014ad5bcbaaa",
+    "name": "Legendary Rune of Power 2",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "964c351b-f7e2-44cb-9d1d-a76d79b18390",
+    "name": "Legendary Rune of Power 3",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "70b7dc77-4867-40f4-8eba-18f66c01a4c5",
+    "name": "Legendary Rune of Power 4",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "ec0dd4c6-718c-44b5-ad4c-d20437c79285",
+    "name": "Legendary Rune of Power 5",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "de71544c-69e7-4af9-b234-4a5db2d8f605",
+    "name": "Legendary Rune of Power 6",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "3355a701-fd6b-4e67-bfec-08e65d490456",
+    "name": "Legendary Rune of Power 7",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "f20e29f2-9596-4426-b476-c3ecde4eb9d6",
+    "name": "Legendary Rune of Power 8",
+    "stat": "power",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "2af9a2f2-b1e3-4d06-86ef-a40d6c79c277",
+    "name": "Ancient Rune of Power 1",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "0e365f59-5f36-4eb6-984d-8efd82eae0ab",
+    "name": "Ancient Rune of Power 2",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "2ce8d4ec-c341-4d87-be88-642d907b97e0",
+    "name": "Ancient Rune of Power 3",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "b04fb2a9-a7ca-406e-bec0-19b5aeb55e31",
+    "name": "Ancient Rune of Power 4",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "49b2a9fa-3f21-405a-a419-519f47132070",
+    "name": "Ancient Rune of Power 5",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "15faaee7-0bd2-4a91-9ee7-739347b69634",
+    "name": "Ancient Rune of Power 6",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "f0f72357-fdab-42de-b07b-1be39ca7db55",
+    "name": "Ancient Rune of Power 7",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "eae5f4db-9871-4a31-8b37-81839b85eadb",
+    "name": "Ancient Rune of Power 8",
+    "stat": "power",
+    "rarity": "ancient",
+    "value": 125
+  },
+  {
+    "id": "0a6e4984-c6c1-4fcd-9434-bc1eaea162de",
+    "name": "Common Rune of Divinity 1",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "600c5b9b-bb2b-4fd0-a3df-b4da3f053510",
+    "name": "Common Rune of Divinity 2",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "1bb2a305-b5fd-4b01-85a2-ad283ca80634",
+    "name": "Common Rune of Divinity 3",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "6e794e62-ed95-40b7-a724-423c00a63882",
+    "name": "Common Rune of Divinity 4",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "ef420e91-8b90-403e-ac81-d87a865c011e",
+    "name": "Common Rune of Divinity 5",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "fe7e1746-2bfb-4922-a0b7-873f7819de5d",
+    "name": "Common Rune of Divinity 6",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "6e8d0097-2c43-4cd8-b0bd-de8e057869d0",
+    "name": "Common Rune of Divinity 7",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "934406d9-7570-4430-bf62-8b177cb029b7",
+    "name": "Common Rune of Divinity 8",
+    "stat": "divinity",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "e8347769-a0ba-4bf6-bfaf-11f9734df1b1",
+    "name": "Rare Rune of Divinity 1",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "2afc87d6-fd4c-4fd0-a436-96020119538e",
+    "name": "Rare Rune of Divinity 2",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "94329b9f-a3d5-4acb-a402-3e6e0572f202",
+    "name": "Rare Rune of Divinity 3",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "ec652b95-d855-42bb-9682-a9cf33e37d03",
+    "name": "Rare Rune of Divinity 4",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "a42da9af-8896-4bb2-b992-b79fa808f2e6",
+    "name": "Rare Rune of Divinity 5",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "45dab3cb-3aed-45c2-b60b-dc415bcb8b0f",
+    "name": "Rare Rune of Divinity 6",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "14750b82-cc49-45e7-8f87-ba2a68efda9b",
+    "name": "Rare Rune of Divinity 7",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "28b2d837-890d-4819-b2ca-45a7f2b421dd",
+    "name": "Rare Rune of Divinity 8",
+    "stat": "divinity",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "be8ba72c-7985-4dec-b913-9cfc6dc4ef6a",
+    "name": "Epic Rune of Divinity 1",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "4ae95278-119c-4208-8c50-30f1b73509cb",
+    "name": "Epic Rune of Divinity 2",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "75610065-3731-42a6-8605-77bed952146a",
+    "name": "Epic Rune of Divinity 3",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "0bb66fda-c354-40d4-8314-9843d7b6a07a",
+    "name": "Epic Rune of Divinity 4",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "d198028b-8cd3-401d-b96a-5c3f3578f9ee",
+    "name": "Epic Rune of Divinity 5",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "e66383fe-ae11-4f16-b96d-56e978d21302",
+    "name": "Epic Rune of Divinity 6",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "7c148784-5798-4114-8ba8-a625b7a3bae6",
+    "name": "Epic Rune of Divinity 7",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "0a565967-e0c8-4a8e-8a70-5d60fba5303f",
+    "name": "Epic Rune of Divinity 8",
+    "stat": "divinity",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "3ffd040f-220d-45dc-a84d-d8db6f085e45",
+    "name": "Legendary Rune of Divinity 1",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "ef45624e-6224-489c-84ee-4ff4dd2b86d3",
+    "name": "Legendary Rune of Divinity 2",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "b1d293e7-1426-46e6-82a5-436a4356e04e",
+    "name": "Legendary Rune of Divinity 3",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "31b94178-8b8c-4d72-b5dc-54dd7cf9f6f7",
+    "name": "Legendary Rune of Divinity 4",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "e7907d7a-a881-4942-afad-bbf3a34fd1f3",
+    "name": "Legendary Rune of Divinity 5",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "e0f2cdba-f4a8-432a-a49e-5dd42eaaba36",
+    "name": "Legendary Rune of Divinity 6",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "ac7b3014-f767-4a6c-8fa6-44b3060ce23b",
+    "name": "Legendary Rune of Divinity 7",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "2d355cb7-8d97-4501-9d23-a2b7ccafc767",
+    "name": "Legendary Rune of Divinity 8",
+    "stat": "divinity",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "1df07212-7c25-43cc-8fc0-306a65996980",
+    "name": "Ancient Rune of Divinity 1",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "48297bf1-de48-4361-8617-37374dccf250",
+    "name": "Ancient Rune of Divinity 2",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "e173945b-f074-4d96-939f-005f0a7ce14c",
+    "name": "Ancient Rune of Divinity 3",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "bb8f5901-f334-49c2-a31f-0f2db896dc3c",
+    "name": "Ancient Rune of Divinity 4",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "a2b4daea-c148-411e-8255-7f63684c32f0",
+    "name": "Ancient Rune of Divinity 5",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "ce37112f-082c-4611-9ca6-03742b502466",
+    "name": "Ancient Rune of Divinity 6",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "76893fae-767a-4754-aa24-403fb113189f",
+    "name": "Ancient Rune of Divinity 7",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "d946c8f3-ecdc-4c23-a1a1-f0ece89a6a47",
+    "name": "Ancient Rune of Divinity 8",
+    "stat": "divinity",
+    "rarity": "ancient",
+    "value": 125
+  },
+  {
+    "id": "fc01fb1d-6fc8-4a98-a281-765e7f83e0ca",
+    "name": "Common Rune of Vitality 1",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "c83ed426-9a7f-4e67-b6fd-148c895afc12",
+    "name": "Common Rune of Vitality 2",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "563da304-2f35-466b-90a2-e1c41f8150e1",
+    "name": "Common Rune of Vitality 3",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "eeaced1f-b312-4c2a-bdc3-01ba6acc18a1",
+    "name": "Common Rune of Vitality 4",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "3e39b0a9-e2bd-453a-baa3-e55fbe697f2a",
+    "name": "Common Rune of Vitality 5",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "ac6ad4a7-9847-4d28-be88-8df67fd1c9df",
+    "name": "Common Rune of Vitality 6",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "fd7c93c5-2ac2-45fa-849f-6655f9aa6c8f",
+    "name": "Common Rune of Vitality 7",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "354a76b3-01c1-4c06-893c-6d6e2ef66991",
+    "name": "Common Rune of Vitality 8",
+    "stat": "vitality",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "0d689444-c4d2-4184-bc42-02f85dc841c8",
+    "name": "Rare Rune of Vitality 1",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "e13c6b50-e49a-4cea-8c62-6795d761a74a",
+    "name": "Rare Rune of Vitality 2",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "cdbd6184-e6f2-4eb9-ad21-4153c7805bdc",
+    "name": "Rare Rune of Vitality 3",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "a0b5c308-893b-4eeb-a255-c17d53c51c1a",
+    "name": "Rare Rune of Vitality 4",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "0288ff39-7a17-4396-9d25-1e0dc4577538",
+    "name": "Rare Rune of Vitality 5",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "422f14a1-58db-47ee-bddb-18286fc6de36",
+    "name": "Rare Rune of Vitality 6",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "147e656a-f3ba-473b-b30a-c1337c8aa034",
+    "name": "Rare Rune of Vitality 7",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "f66698aa-b532-46d0-a6f5-69f9d0def0c4",
+    "name": "Rare Rune of Vitality 8",
+    "stat": "vitality",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "11c6ebb8-a55f-4300-b729-9ac1d0a88164",
+    "name": "Epic Rune of Vitality 1",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "87bcdaf9-7be6-4cbb-ba00-93d4d5691a89",
+    "name": "Epic Rune of Vitality 2",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "0e22aa54-9add-4be0-b2a1-860d324f157a",
+    "name": "Epic Rune of Vitality 3",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "69270c87-71e1-467b-9ee0-b06f8708025f",
+    "name": "Epic Rune of Vitality 4",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "30f81d0f-99a7-40bc-bccb-30090f58b3f4",
+    "name": "Epic Rune of Vitality 5",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "11ec95b8-4f62-45ff-a60f-03888ff02492",
+    "name": "Epic Rune of Vitality 6",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "b28e600a-0220-4155-8ba2-198273d71f90",
+    "name": "Epic Rune of Vitality 7",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "705bcd81-057d-41b0-8b5f-0a3d5a71d6a0",
+    "name": "Epic Rune of Vitality 8",
+    "stat": "vitality",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "729ef74b-d937-4f25-a9f4-db4528342850",
+    "name": "Legendary Rune of Vitality 1",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "29888d95-8163-43e0-bf46-297dca72ce65",
+    "name": "Legendary Rune of Vitality 2",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "dfa99225-cea6-4f52-96c8-02f0f266b212",
+    "name": "Legendary Rune of Vitality 3",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "79eec329-1574-41d6-840a-30e5671e95a7",
+    "name": "Legendary Rune of Vitality 4",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "2b9a2887-ecf7-4328-8d1d-f59a6a023d99",
+    "name": "Legendary Rune of Vitality 5",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "d90fcfcc-6479-4e25-9903-8e54f9d8fef2",
+    "name": "Legendary Rune of Vitality 6",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "b47daf83-f83b-4411-9f02-69f74fe7c915",
+    "name": "Legendary Rune of Vitality 7",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "3fe933ac-5e0d-4008-bcce-83d4e702ff6f",
+    "name": "Legendary Rune of Vitality 8",
+    "stat": "vitality",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "2d7c9c95-99f8-4a7a-a36f-2dac2f18f35a",
+    "name": "Ancient Rune of Vitality 1",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "f65a3fa3-f79d-487c-8d29-8ec99b909666",
+    "name": "Ancient Rune of Vitality 2",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "94094021-3f81-4a8c-9a6d-7db2ee288e7d",
+    "name": "Ancient Rune of Vitality 3",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "2a3e0e45-b96f-4fb4-b7a2-01aa6d8fec28",
+    "name": "Ancient Rune of Vitality 4",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "b6624fe1-5423-451c-ade5-c792a1264cf4",
+    "name": "Ancient Rune of Vitality 5",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "9a6885ac-e631-4f13-8fb6-69540d01f57e",
+    "name": "Ancient Rune of Vitality 6",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "37ac2fad-0cc9-4654-b2d9-aa427125c671",
+    "name": "Ancient Rune of Vitality 7",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "f4a21f2c-b83a-4513-a5f5-c77ccc9407a5",
+    "name": "Ancient Rune of Vitality 8",
+    "stat": "vitality",
+    "rarity": "ancient",
+    "value": 125
+  },
+  {
+    "id": "2af6657b-0e30-4f9e-a753-95327e9b59f4",
+    "name": "Common Rune of Strength 1",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 3
+  },
+  {
+    "id": "17aed98b-f016-439d-bbdf-c30e99e86ba3",
+    "name": "Common Rune of Strength 2",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 4
+  },
+  {
+    "id": "e5bd442b-19b8-44ff-bf7f-e7be82044d25",
+    "name": "Common Rune of Strength 3",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 5
+  },
+  {
+    "id": "f3e0b8e4-6521-4b9c-9bae-80e1998e798a",
+    "name": "Common Rune of Strength 4",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 6
+  },
+  {
+    "id": "e776c14f-5afe-47b2-8ee6-2313f22e6cb3",
+    "name": "Common Rune of Strength 5",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 7
+  },
+  {
+    "id": "140911e8-28dc-48b4-b12e-b425b9524eff",
+    "name": "Common Rune of Strength 6",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 8
+  },
+  {
+    "id": "3cbc6bf6-b95e-46a8-a6cb-416a76f88f16",
+    "name": "Common Rune of Strength 7",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 9
+  },
+  {
+    "id": "4d506671-6e42-4ac6-acfa-01f8c27055a7",
+    "name": "Common Rune of Strength 8",
+    "stat": "strength",
+    "rarity": "common",
+    "value": 10
+  },
+  {
+    "id": "e30479a9-38a2-425c-9b19-c1d704b2c5f0",
+    "name": "Rare Rune of Strength 1",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 12
+  },
+  {
+    "id": "ac596ab8-edcb-4b37-8c12-75bda81f4bf1",
+    "name": "Rare Rune of Strength 2",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 14
+  },
+  {
+    "id": "d9ea60b4-2753-40e5-a1e5-6509b7f4c271",
+    "name": "Rare Rune of Strength 3",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 16
+  },
+  {
+    "id": "0149829d-d27b-46ec-8b56-c2d3efcd2b01",
+    "name": "Rare Rune of Strength 4",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 18
+  },
+  {
+    "id": "d8c9f8d5-6884-4709-b434-ade438f34042",
+    "name": "Rare Rune of Strength 5",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 20
+  },
+  {
+    "id": "ea4b61be-c2ba-423c-b8ce-ac67a3be7680",
+    "name": "Rare Rune of Strength 6",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 22
+  },
+  {
+    "id": "fc680a72-7885-4cd3-9dba-6885eb9bbedf",
+    "name": "Rare Rune of Strength 7",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 24
+  },
+  {
+    "id": "aacd4a7e-7ab7-496b-8cb3-e60ebffd887d",
+    "name": "Rare Rune of Strength 8",
+    "stat": "strength",
+    "rarity": "rare",
+    "value": 26
+  },
+  {
+    "id": "2331fd63-d9db-457a-9b62-583ec82bae7b",
+    "name": "Epic Rune of Strength 1",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 30
+  },
+  {
+    "id": "f08d22d5-8652-4e4a-8561-c619d01d4f4e",
+    "name": "Epic Rune of Strength 2",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 33
+  },
+  {
+    "id": "52fd8eb8-b422-40c5-8452-8de07cb0ae8b",
+    "name": "Epic Rune of Strength 3",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 36
+  },
+  {
+    "id": "a69f0d36-1e24-4559-b3b4-3c54730f32fe",
+    "name": "Epic Rune of Strength 4",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 39
+  },
+  {
+    "id": "053863bd-d3ae-461a-ad69-956d0f18d657",
+    "name": "Epic Rune of Strength 5",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 42
+  },
+  {
+    "id": "28a62826-4d59-40c7-a1d9-a4af56382f53",
+    "name": "Epic Rune of Strength 6",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 45
+  },
+  {
+    "id": "57eafa21-1eeb-4f1b-802a-6b994c110fd3",
+    "name": "Epic Rune of Strength 7",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 48
+  },
+  {
+    "id": "e61d41ef-54a4-4c8b-9365-db2f5487e387",
+    "name": "Epic Rune of Strength 8",
+    "stat": "strength",
+    "rarity": "epic",
+    "value": 51
+  },
+  {
+    "id": "7454fbb7-889d-4b4b-a219-8fef09a9398f",
+    "name": "Legendary Rune of Strength 1",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 55
+  },
+  {
+    "id": "260eeed9-d806-464d-be6e-4e0d834b0b6a",
+    "name": "Legendary Rune of Strength 2",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 59
+  },
+  {
+    "id": "f0f6bd1c-dd61-4156-a965-97dfe3047916",
+    "name": "Legendary Rune of Strength 3",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 63
+  },
+  {
+    "id": "c304d2f8-62c7-4c0f-ad7c-6b47ee6655d9",
+    "name": "Legendary Rune of Strength 4",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 67
+  },
+  {
+    "id": "ddd61dae-fd60-49f0-af98-bdd48e5183b7",
+    "name": "Legendary Rune of Strength 5",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 71
+  },
+  {
+    "id": "3ea354e4-1bfe-4075-bf91-f10b014c74ee",
+    "name": "Legendary Rune of Strength 6",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 75
+  },
+  {
+    "id": "a8d4a682-2863-4b5f-86a5-da6acf157671",
+    "name": "Legendary Rune of Strength 7",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 79
+  },
+  {
+    "id": "8fdbf6b6-bf70-41f8-b4ea-cf1e8aa5f5a4",
+    "name": "Legendary Rune of Strength 8",
+    "stat": "strength",
+    "rarity": "legendary",
+    "value": 83
+  },
+  {
+    "id": "77e1f14e-a70b-4231-9d6b-30ff61a955b1",
+    "name": "Ancient Rune of Strength 1",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 90
+  },
+  {
+    "id": "e5e99596-8d3b-4243-bc95-7f13587cf78e",
+    "name": "Ancient Rune of Strength 2",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 95
+  },
+  {
+    "id": "e66ab726-b7f5-4c92-bcb6-5a025419c46c",
+    "name": "Ancient Rune of Strength 3",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 100
+  },
+  {
+    "id": "c845b58b-6735-4e74-97a7-9e436dac9f52",
+    "name": "Ancient Rune of Strength 4",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 105
+  },
+  {
+    "id": "1980de83-df45-4888-ac81-44a804f7baf7",
+    "name": "Ancient Rune of Strength 5",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 110
+  },
+  {
+    "id": "c4bc7247-d4df-4809-9186-de0404385d2d",
+    "name": "Ancient Rune of Strength 6",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 115
+  },
+  {
+    "id": "999dad45-85cc-4f0a-9cef-727a1cf51b47",
+    "name": "Ancient Rune of Strength 7",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 120
+  },
+  {
+    "id": "e03daafd-172d-474f-a6d8-3e6887a27842",
+    "name": "Ancient Rune of Strength 8",
+    "stat": "strength",
+    "rarity": "ancient",
+    "value": 125
+  }
+]

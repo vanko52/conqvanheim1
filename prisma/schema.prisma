@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("https://github.com/vanko52/conqvanheim1.git")
+}
+
+model User {
+  id          Int          @id @default(autoincrement())
+  username    String       @unique
+  password    String
+  power       Int          @default(0)
+  lastPullAt  DateTime?
+  inventory   Inventory[]
+  equipment   Equipment[]
+}
+
+model Rune {
+  id          Int          @id @default(autoincrement())
+  stat        String
+  rarity      String
+  value       Int
+  inventory   Inventory[]
+}
+
+model Inventory {
+  id     Int  @id @default(autoincrement())
+  user   User @relation(fields:[userId], references:[id])
+  userId Int
+  rune   Rune @relation(fields:[runeId], references:[id])
+  runeId Int
+  equipment Equipment?
+}
+
+model Equipment {
+  id           Int       @id @default(autoincrement())
+  user         User      @relation(fields: [userId], references: [id])
+  userId       Int
+  slot         String
+  inventory    Inventory @relation(fields: [inventoryId], references: [id])
+  inventoryId  Int       @unique
+
+  @@unique([userId, slot])
+}
