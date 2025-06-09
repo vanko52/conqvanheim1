@@ -7,7 +7,8 @@
     "scripts": {
     "preinstall": "true",                       // placeholder, keep npm happy
 
-        "postinstall": "chmod +x ./node_modules/.bin/prisma && npm --prefix frontend install && npm run generate && npm run build",
+        "postinstall": "chmod +x ./node_modules/.bin/prisma && npm install --prefix frontend && chmod +x ./frontend/node_modules/.bin/vite && npx prisma generate && npm --prefix frontend run build",
+
 
         "generate": "npx prisma generate",
         "build":    "npm --prefix frontend run build",

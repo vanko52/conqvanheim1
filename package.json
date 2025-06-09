@@ -5,7 +5,9 @@
   "main": "index.js",
 
   "scripts": {
-    "postinstall": "chmod +x ./node_modules/.bin/prisma && npm install --prefix frontend && npx prisma generate && npm --prefix frontend run build",
+    "postinstall": "chmod +x ./node_modules/.bin/prisma && npm install --prefix frontend && chmod +x ./frontend/node_modules/.bin/vite && npx prisma generate && npm --prefix frontend run build",
+
+
     "start": "node index.js"
   },
 
