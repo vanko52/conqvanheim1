@@ -37,8 +37,8 @@ export default function Dashboard() {
       </div>
       <div className="box">
         <h3>Inventory</h3>
-        {data.inventory.map(inv=>(
-          <div key={inv.id}>
+        {data?.inventory?.map(inv => (
+            <div key={inv.id}>
             {inv.rune.rarity.toUpperCase()} {inv.rune.stat} +{inv.rune.value}
           </div>
         ))}
