@@ -1,4 +1,4 @@
-mport React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -8,9 +8,8 @@ export default function Inventory() {
     const nav = useNavigate();
     const [eq, setEq] = useState([]);
 
-    const load = () => axios.get('/equipment')
-        .then(r => setEq(r.data))
-        .catch(() => nav('/login'));
+    const load = () =>
+        axios.get('/equipment').then(r => setEq(r.data)).catch(() => nav('/login'));
 
     useEffect(load, []);
 
@@ -29,7 +28,7 @@ export default function Inventory() {
                              onClick={() => nav(`/inventory/${slot}`)}>
                             <strong>{slot.toUpperCase()}</strong>
                             {equipped
-                                ? <span>{equipped.inventory.rune.rarity.toUpperCase()} +{equipped.inventory.rune.value}</span>
+                                ? <span>{equipped.inventory.rune.rarity.toUpperCase()} +{equipped.inventory.rune.value}</span>
                                 : <span>(empty)</span>}
                         </div>
                     );
