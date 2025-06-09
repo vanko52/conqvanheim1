@@ -8,6 +8,13 @@
       .box { border: 1px solid black; padding: 1rem; margin-bottom: 1rem; }
       button { padding: 0.5rem 1rem; }
       input { margin: 0.25rem 0; padding: 0.25rem; }
+      @keyframes shake {
+        0%,100% { transform:translateX(0) }
+        20%,60% { transform:translateX(-5px) }
+        40%,80% { transform:translateX(5px) }
+      }
+      .slot-square.shake { animation:shake 0.4s ease; }
+
     </style>
     <script type="module" crossorigin src="/assets/index-BkeHaHXu.js"></script>
   </head>
