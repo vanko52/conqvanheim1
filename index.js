@@ -187,6 +187,15 @@ app.get('/api/health', (_req,res)=> res.json({ ok:true }));
 
 // ──────────────────── start server ──────────────────────────
 const PORT = process.env.PORT || 4000;
+import path from 'path';
+const __dirname = path.resolve();
+
+app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
+});
+
 app.listen(PORT, ()=> console.log('⚡ Conq backend ready on port', PORT));
 
 // (optional) export for scripts

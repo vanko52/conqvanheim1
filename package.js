@@ -1,0 +1,9 @@
+{
+    "name": "conqvanheim-monolithic",
+    "private": true,
+    "scripts": {
+    "build": "npm --prefix frontend run build",
+        "postinstall": "npm install --prefix backend && npm run build",
+        "start": "node backend/index.js"
+}
+}

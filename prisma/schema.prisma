@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("https://github.com/vanko52/conqvanheim1.git")
+  url      = env("DATABASE_URL")
 }
 
 model User {
