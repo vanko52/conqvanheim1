@@ -1,6 +1,10 @@
 generator client {
   provider      = "prisma-client-js"
-  binaryTargets = ["native", "debian-openssl-3.0.x"]
+
+  # Works everywhere you develop + deploy
+  binaryTargets = ["native", "windows"]
+  #  - "native"  ➜ Render will auto-pick "debian-openssl-3.0.x"
+  #  - "windows" ➜ keeps your local dev ⬅️
 }
 
 datasource db {
