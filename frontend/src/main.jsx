@@ -6,6 +6,9 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Leaderboard from './pages/Leaderboard'
+import StatRunes   from './pages/StatRunes';
+import Inventory   from './pages/Inventory';
+
 
 axios.defaults.baseURL = '/api';
 axios.interceptors.request.use(config=>{
@@ -22,6 +25,9 @@ const elem = (
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/leaderboard" element={<Leaderboard />} />
+      <Route path="/inventory" element={<Inventory />} />
+      <Route path="/inventory/:stat" element={<StatRunes />} />
+
     </Routes>
   </BrowserRouter>
 )
