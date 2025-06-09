@@ -34,6 +34,8 @@ export default function Dashboard() {
         <p>Welcome, {data.username} (Power: {data.power})</p>
         <button onClick={pull}>Pull the Horn</button>
         <button onClick={pull}>Pull the Horn</button>
+        <p><Link to="/inventory">Open Inventory</Link></p>
+
         {msg && <p>{msg}</p>}
 
         {/* 👉 new link to the slot-grid page */}
