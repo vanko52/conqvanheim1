@@ -1,4 +1,5 @@
-import React from 'react'
++import React from 'react';
++import { DragDropContext } from 'react-beautiful-dnd';
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import axios from 'axios'
@@ -18,7 +19,15 @@ axios.interceptors.request.use(config=>{
 })
 
 const elem = (
-  <BrowserRouter>
+    function AppDragWrapper({ children }) {
+      function onDragEnd(result) {
+        /* we’ll forward to a page-local handler via window */
+        window.dispatchEvent(new CustomEvent('dnd', { detail: result }));
+      }
+      return <DragDropContext onDragEnd={onDragEnd}>{children}</DragDropContext>;
+    }
+
+<BrowserRouter>
     <Routes>
       <Route path="/" element={<Navigate to="/dashboard" />} />
       <Route path="/login" element={<Login />} />

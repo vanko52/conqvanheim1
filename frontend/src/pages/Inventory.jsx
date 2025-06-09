@@ -1,43 +1,44 @@
-// Inventory.jsx  ── simple slot grid (no DragDropContext)
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import axios from 'axios';
+import { DragDropContext } from 'react-beautiful-dnd';
 
-const stats = ['length','thickness','power','divinity','vitality','strength'];
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import Leaderboard from './pages/Leaderboard';
+import Inventory from './pages/Inventory';
+import StatRunes from './pages/StatRunes';
 
-export default function Inventory() {
-    const nav = useNavigate();
-    const [eq, setEq] = useState([]);
+axios.defaults.baseURL = '/api';
+axios.interceptors.request.use(config => {
+    const token = localStorage.getItem('token');
+    if (token) config.headers.Authorization = `Bearer ${token}`;
+    return config;
+});
 
-    const load = () =>
-        axios.get('/equipment').then(r => setEq(r.data))
-            .catch(() => nav('/login'));
-
-    useEffect(load, []);
-
-    const equippedFor = slot => eq.find(e => e.slot === slot);
-
-    return (
-        <div className="box">
-            <h2>Rune Slots</h2>
-
-            <div className="slot-grid">
-                {stats.map(slot => {
-                    const equipped = equippedFor(slot);
-                    return (
-                        <div key={slot}
-                             className={`slot-square ${slot}`}
-                             onClick={() => nav(`/inventory/${slot}`)}>
-                            <strong>{slot.toUpperCase()}</strong>
-                            {equipped
-                                ? <span>{equipped.inventory.rune.rarity.toUpperCase()} +{equipped.inventory.rune.value}</span>
-                                : <span>(empty)</span>}
-                        </div>
-                    );
-                })}
-            </div>
-
-            <p><Link to="/dashboard">Back</Link></p>
-        </div>
-    );
+function AppDragWrapper({ children }) {
+    function onDragEnd(result) {
+        // forward DnD events to any page that cares
+        window.dispatchEvent(new CustomEvent('dnd', { detail: result }));
+    }
+    return <DragDropContext onDragEnd={onDragEnd}>{children}</DragDropContext>;
 }
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <AppDragWrapper>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Navigate to="/dashboard" />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/leaderboard" element={<Leaderboard />} />
+                <Route path="/inventory" element={<Inventory />} />
+                <Route path="/inventory/:stat" element={<StatRunes />} />
+            </Routes>
+        </BrowserRouter>
+    </AppDragWrapper>
+);
