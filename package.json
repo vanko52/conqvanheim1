@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "prisma:deploy": "prisma migrate deploy",
-    "postinstall": "prisma generate"
+    "prisma:deploy": "npx prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
