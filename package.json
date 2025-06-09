@@ -5,11 +5,15 @@
   "main": "index.js",
 
   "scripts": {
-    "generate": "prisma generate",
-    "build": "npm --prefix frontend run build",
-    "postinstall": "npm install --prefix frontend && npm run generate && npm run build",
-    "start": "node index.js"
+    "preinstall": "true",                       // placeholder, keep npm happy
+
+    "postinstall": "chmod +x ./node_modules/.bin/prisma && npm --prefix frontend install && npm run generate && npm run build",
+
+    "generate": "npx prisma generate",
+    "build":    "npm --prefix frontend run build",
+    "start":    "node index.js"
   },
+
 
   "dependencies": {
     "@prisma/client": "^5.22.0",
