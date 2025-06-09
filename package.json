@@ -5,13 +5,8 @@
   "main": "index.js",
 
   "scripts": {
-    "preinstall": "true",                       // placeholder, keep npm happy
-
-    "postinstall": "chmod +x ./node_modules/.bin/prisma && npm --prefix frontend install && npm run generate && npm run build",
-
-    "generate": "npx prisma generate",
-    "build":    "npm --prefix frontend run build",
-    "start":    "node index.js"
+    "postinstall": "chmod +x ./node_modules/.bin/prisma && npm install --prefix frontend && npx prisma generate && npm --prefix frontend run build",
+    "start": "node index.js"
   },
 
 
