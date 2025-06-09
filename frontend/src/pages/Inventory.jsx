@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+mport React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -8,8 +8,9 @@ export default function Inventory() {
     const nav = useNavigate();
     const [eq, setEq] = useState([]);
 
-    const load = () =>
-        axios.get('/equipment').then(r => setEq(r.data)).catch(() => nav('/login'));
+    const load = () => axios.get('/equipment')
+        .then(r => setEq(r.data))
+        .catch(() => nav('/login'));
 
     useEffect(load, []);
 

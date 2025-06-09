@@ -11,13 +11,14 @@ export default function StatRunes() {
     const [toast, setToast] = useState('');
     const [shake, setShake] = useState(false);
 
-    // ── helpers ────────────────────────────────────────────
+    /* ── helpers ─────────────────────────────────────────── */
     const refresh = () => {
         axios.get('/me').then(r => setInv(r.data.inventory));
         axios.get('/equipment').then(r => setEq(r.data));
     };
     useEffect(refresh, []);
 
+    /* listen to global DragDropContext events */
     useEffect(() => {
         const handler = e => handleDrag(e.detail);
         window.addEventListener('dnd', handler);
@@ -27,35 +28,37 @@ export default function StatRunes() {
     const equipped = eq.find(e => e.slot === stat);
     const stash    = inv.filter(i => i.rune.stat === stat && i.id !== equipped?.inventoryId);
 
-    // ── drag logic (now via global context) ─────────────────
-    async function handleDrag(res){
+    /* ── drag logic driven by global context ─────────────── */
+    async function handleDrag(res) {
         if (!res.destination) return;
         const src = res.source.droppableId;
         const dst = res.destination.droppableId;
         const id  = Number(res.draggableId);
 
-        try{
-            if (src==='list' && dst==='slot') {
+        try {
+            if (src === 'list' && dst === 'slot') {
                 if (equipped) {
                     setToast('Only one rune can be equipped at a time!');
-                    setShake(true); setTimeout(()=>setShake(false),400);
+                    setShake(true); setTimeout(() => setShake(false), 400);
                     return;
                 }
-                await axios.post('/equip', { inventoryId:id });
+                await axios.post('/equip', { inventoryId: id });
             }
-            if (src==='slot' && dst==='list') {
+            if (src === 'slot' && dst === 'list') {
                 await axios.post('/unequip', { slot: stat });
             }
             refresh();
-        }catch(err){ console.error(err); }
+        } catch (err) {
+            console.error(err);
+        }
     }
 
-    // ── render ─────────────────────────────────────────────
+    /* ── render ──────────────────────────────────────────── */
     return (
-        <ErrorBoundary fallback={<p style={{color:'red'}}>Drag‑drop crashed — refresh</p>}>
+        <ErrorBoundary fallback={<p style={{ color:'red' }}>Drag‑drop crashed — refresh</p>}>
             <div className="box">
                 <h2>{stat.toUpperCase()} Runes</h2>
-                {toast && <p style={{color:'red'}}>{toast}</p>}
+                {toast && <p style={{ color:'red' }}>{toast}</p>}
 
                 <div style={{ display:'flex', gap:'1rem' }}>
                     {/* Stash list */}
@@ -69,7 +72,7 @@ export default function StatRunes() {
                                         {p => (
                                             <div ref={p.innerRef} {...p.draggableProps} {...p.dragHandleProps}
                                                  className={`rune-pill ${it.rune.rarity}`}>
-                                                {it.rune.rarity.toUpperCase()} +{it.rune.value}
+                                                {it.rune.rarity.toUpperCase()} +{it.rune.value}
                                             </div>
                                         )}
                                     </Draggable>
@@ -91,7 +94,7 @@ export default function StatRunes() {
                                         {p => (
                                             <div ref={p.innerRef} {...p.draggableProps} {...p.dragHandleProps}
                                                  className={`rune-pill ${equipped.inventory.rune.rarity} equipped`}>
-                                                {equipped.inventory.rune.rarity.toUpperCase()} +{equipped.inventory.rune.value}
+                                                {equipped.inventory.rune.rarity.toUpperCase()} +{equipped.inventory.rune.value}
                                             </div>
                                         )}
                                     </Draggable>
@@ -102,7 +105,7 @@ export default function StatRunes() {
                     </Droppable>
                 </div>
 
-                <p><Link to="/inventory">← Back</Link></p>
+                <p><Link to="/inventory">← Back</Link></p>
             </div>
         </ErrorBoundary>
     );
