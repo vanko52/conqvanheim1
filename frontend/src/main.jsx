@@ -7,7 +7,7 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Leaderboard from './pages/Leaderboard'
 
-axios.defaults.baseURL = 'http://localhost:4000/api'
++ axios.defaults.baseURL = '/api';
 axios.interceptors.request.use(config=>{
   const token = localStorage.getItem('token')
   if (token) config.headers.Authorization = 'Bearer ' + token
